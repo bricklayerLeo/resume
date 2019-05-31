@@ -72,7 +72,7 @@
 <script>
 import tag from '../subcomponents/tag'
 import zuopin from '../subcomponents/zuopin'
-import BScroll from 'better-scroll'
+
 export default {
   name: 'conent',
   data(){
@@ -95,10 +95,7 @@ export default {
    tag,
    zuopin
   },
-  mounted(){
-let wrapper = document.querySelector('.wrapper')
-let scroll = new BScroll(wrapper)
-  }
+
 }
 </script>
 
