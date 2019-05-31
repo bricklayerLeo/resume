@@ -1,10 +1,10 @@
 <template>
     <div class="zuopin">
        <div class="qunaer">
-           <p>个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及：
-             电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，
-             与或独立开发过多个核心项目，项目类型涉及：
-             电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</p>
+           <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
+               项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
+                开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
+             电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</div>
              <div class="picture">
             <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
             <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
@@ -41,9 +41,7 @@ export default {
     width: 250px;
     height: 500px;
 }
-.qunaer p{
-    padding-top: 20px;
-    width: 88%;
+.wenzi{
     
 }
 
@@ -54,6 +52,11 @@ margin-right: 15px;
 }
 .tupian :hover{
     transform: scale(1.1)
+}
+@media (max-width: 992px){
+    .wenzi{
+    width:100%;
+}
 }
 </style>
 

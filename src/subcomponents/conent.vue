@@ -1,6 +1,6 @@
 <template>
 
-  <div class="conent clearfix" >
+  <div class="conent " >
     
   <p class="beijing">背景资料</p>
     
@@ -25,7 +25,7 @@
          <h3>教育经历</h3>
          <div class="miaohu1">
            <p class="school"> <strong>东华理工大学，本科，</strong> 软件工程专业</p>
-           <p class="timee">2012-09-2016-06</p>
+           <p class="timee">2012/09--2016/06</p>
          </div>
         
          
@@ -38,8 +38,8 @@
          <h3>作品展示</h3>
          <div class="miaohu1">
          <zuopin />
+        <zuopin />
           <zuopin />
-           <zuopin />
         </div>
   </div>
 
@@ -99,11 +99,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .conent{
-    
-    background: white;
-    margin-top: 10px;
+  background: white;
+  margin-top: 10px;
   font-size: 18px;
   height: 100%;
 }
@@ -123,7 +122,7 @@ export default {
   margin:0 90px;
   font-size: 18px;
   border-bottom: 1px solid #eeeeee;
-  width:90%;;
+  width:90%;
   padding-top: 8px;
 }
 .miaohu1{
@@ -131,6 +130,7 @@ export default {
   padding-left: 125px;
   font-size: 14px;
 }
+
 ul{
   list-style-type:circle;
 }
@@ -145,5 +145,14 @@ ul{
 }
 .miaohu{
   margin-top: -20px;
+}
+@media (max-width: 992px){
+  .miaohu h3{margin:0 60px;}
+  .miaohu1{
+    padding-left: 60px;
+  }
+  .tubiao{
+    left: 15px;
+  }
 }
 </style>

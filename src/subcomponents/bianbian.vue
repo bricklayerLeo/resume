@@ -2,7 +2,7 @@
 
 
   <div class="bianbian clearfix" >
-  <div class="haha">
+
    <div class="touxiang"></div>
    <div class="jieshao">
        <h3>刘维</h3>
@@ -19,10 +19,11 @@
            <li ><span class="iconfont" >&#xe7a9;</span> https://github.com/msppyu1 </li>
        </ul>
    </div>
-   <hr>
-   <div class="github"></div>
+   <hr class="okk">
+ 
+   <a href="https://github.com/msppyu1" class="github"><span class="iconfont">&#xe60a;</span></a>
    </div>
-</div>
+
 </template>
 
 <script>
@@ -31,23 +32,22 @@ export default {
 }
 </script>
 
- <style  scoped>
- .bianbian{
-     height: 660px;
-     background: white;
-     margin-top: 10px;
+<style scoped>
+
+.bianbian{
+    height: 660px;
+    background: white;
+    margin-top: 10px;
   
-    
- }
- 
+}
 
 .touxiang{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-   margin: 0 auto;
+    margin: 0 auto;
     margin-top: 45px;
- background: url('../assets/yeye4.png')no-repeat left top/200%;
+    background: url('../assets/yeye4.png')no-repeat left top/200%;
 }
 .jieshao{
     width: 200px;
@@ -59,8 +59,6 @@ export default {
 }
 
 .xiangxi{
-   margin: 0 auto;
- 
    padding-left: 66px;
 }
 ul li{
@@ -68,7 +66,20 @@ ul li{
      font-size: 12px;
     
 }
+@media (max-width: 992px){
+    
+    .xiangxi{
+        position: absolute;
+        left: 50%;
+        width: 250PX;
+        margin-left: -125PX;
+        
+        }
+        .okk{
+         margin-top: 240px;
+        }
 
+}
 
 hr{
     width: 90%;
@@ -82,6 +93,18 @@ ul span{
     position: relative;
     right:  20px;
     font-size: 25px;
+}
+.github{
+   width: 100px;
+   position: absolute;
+   left: 50%;
+   margin-left: -50px;
+   text-align:center;
+   padding-top: 40px;
+   text-decoration: none;
+}
+.github span{
+font-size: 45px;
 }
 </style>
 

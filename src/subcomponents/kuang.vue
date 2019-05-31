@@ -12,5 +12,9 @@ export default {
 </script>
 
 <style>
-
+.kuang{
+  width: 100%;
+  height: 60px;
+  background-color: red;
+}
 </style>
