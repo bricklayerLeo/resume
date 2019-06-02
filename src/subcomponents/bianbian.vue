@@ -68,7 +68,7 @@ export default {
     animation: toutou 3s forwards;
 }
 .jieshao{
-    width: 200px;
+    width: 90%;
     height: 100px;
     margin: 0 auto;
     text-align: center;
