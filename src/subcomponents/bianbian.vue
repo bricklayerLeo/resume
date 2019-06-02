@@ -68,7 +68,7 @@ export default {
     animation: toutou 3s forwards;
 }
 .jieshao{
-    width: 90%;
+    width: 200px;
     height: 100px;
     margin: 0 auto;
     text-align: center;
@@ -96,7 +96,18 @@ ul li{
         .okk{
          margin-top: 240px;
         }
-
+.touxiang{
+position: absolute;
+        left: 50%;
+        
+        margin-left: -50PX;
+}
+.jieshao{
+position: absolute;
+        left: 50%;
+      
+        margin-left: -100PX;
+}
 }
 
 
