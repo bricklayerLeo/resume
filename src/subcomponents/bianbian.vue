@@ -59,7 +59,10 @@ export default {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 0 auto;
+   
+   position: absolute;
+   left: 50%;
+   margin-left: -50px;
     margin-top: 45px;
     background: url('../assets/yeye4.png')no-repeat left top/200%;
     opacity: 0;
@@ -68,9 +71,12 @@ export default {
     animation: toutou 3s forwards;
 }
 .jieshao{
+    position: absolute;
+   left: 50%;
+   margin-left: -100px;
     width: 200px;
     height: 100px;
-    margin: 0 auto;
+    
     text-align: center;
     line-height: 25px;
 
@@ -96,18 +102,7 @@ ul li{
         .okk{
          margin-top: 240px;
         }
-.touxiang{
-position: absolute;
-        left: 50%;
-        
-        margin-left: -50PX;
-}
-.jieshao{
-position: absolute;
-        left: 50%;
-      
-        margin-left: -100PX;
-}
+
 }
 
 
