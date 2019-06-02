@@ -6,10 +6,10 @@
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
              电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</div>
              <div class="picture">
-            <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
-            <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
-            <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
-            <div class="tupian"><img src="../assets/mianshi1.png" alt=""></div>
+            <div class="tupian"><img src="@/assets/mianshi1.png" alt=""></div>
+            <div class="tupian"><img src="@/assets/mianshi1.png" alt=""></div>
+            <div class="tupian"><img src="@/assets/mianshi1.png" alt=""></div>
+            <div class="tupian"><img src="@/assets/mianshi1.png" alt=""></div>
             </div>
          </div>
          <div class="xiaochengxu"></div>
@@ -41,9 +41,7 @@ export default {
     width: 250px;
     height: 500px;
 }
-.wenzi{
-    
-}
+
 
 .tupian{
 margin-right: 15px;
