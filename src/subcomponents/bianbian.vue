@@ -33,7 +33,21 @@ export default {
 </script>
 
 <style scoped>
-
+@keyframes toutou{
+    
+    30%{
+        transform: translateX(20px) ;
+        opacity: 1;
+    }
+    90%{
+        transform: translateX(-20px);
+        opacity: 1;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
 .bianbian{
     height: 660px;
     background: white;
@@ -48,6 +62,10 @@ export default {
     margin: 0 auto;
     margin-top: 45px;
     background: url('../assets/yeye4.png')no-repeat left top/200%;
+    opacity: 0;
+}
+.touxiang{
+    animation: toutou 3s forwards;
 }
 .jieshao{
     width: 200px;
