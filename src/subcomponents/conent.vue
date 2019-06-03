@@ -28,22 +28,7 @@
            <p class="school"> <strong>东华理工大学，本科，</strong> 软件工程专业</p>
            <p class="timee">2012/09--2016/06</p>
          </div>
-        
-         
-    
-   </div>
-
-
-  <div class="miaohu">
-        <div class="tubiao"><span class="iconfont">&#xe604;</span></div>
-         <h3>作品展示</h3>
-         <hr>
-         <div class="miaohu1">
-         <zuopin />
-        <zuopin />
-          <zuopin />
-        </div>
-  </div>
+    </div>
 
  <div class="miaohu">
    <div class="tubiao"><span class="iconfont">&#xe614;</span></div>
@@ -53,16 +38,30 @@
          <tag :skill="this.skills"/>
          发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人主攻 Web 前端和 NodeJS 开发，<br>3年+前端开发经验， 与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等
   </div>
-  
-  <div class="miaohu">
+
+    <div class="miaohu">
    <div class="tubiao"><span class="iconfont">&#xe624;</span></div>
          <h3>兴趣爱好</h3>
         <hr>
          <div class="miaohu1">
          <tag :aihao="this.aihao"/>
-         发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人主攻 Web 前端和 NodeJS 开发，<br>3年+前端开发经验， 与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等
+         发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人主攻 Web 前端和 NodeJS 开发
+         ，<br>3年+前端开发经验， 与或独立开发过多个核心项目，项目类型涉及： 电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等
 </div>
   </div>
+
+  <div class="miaohu zhanshi">
+        <div class="tubiao"><span class="iconfont">&#xe604;</span></div>
+         <h3>作品展示</h3>
+         <hr>
+         <div class="miaohu1">
+         <zuopin />
+        </div>
+  </div>
+
+
+  
+
     
    </div>
 
@@ -99,6 +98,9 @@ export default {
 </script>
 
 <style scoped>
+.zhanshi{
+  margin-bottom: 50px;
+}
 .conent{
   background: white;
   
