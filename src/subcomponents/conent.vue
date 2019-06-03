@@ -178,4 +178,9 @@ ul{
   margin-left: 15px;
 }
 }
+@media (max-width: 992px){
+  .miaohu1{
+    padding-right:20px;
+  }
+}
 </style>

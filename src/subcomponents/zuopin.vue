@@ -2,8 +2,8 @@
     <div class="zuopin">
        <div class="qunaer">
            <div class="biaoti"><h5>仿去哪儿网vue  </h5> <div class="lianjie"><a href="https://msppyu1.github.io/travel1/dist/index.html#/">
-           <span class="iconfont" style="font-size:18px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div>
-            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击查看效果</span> </div>
+           <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div>
+            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
            <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
                项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
@@ -18,7 +18,7 @@
         
      <div class="qunae">
            <div class="biaoti"><h5>仿百度外卖CSS3动画 </h5> <div class="lianjie"><a href="https://msppyu1.github.io/baiduwaimai/waimai.html">
-           <span class="iconfont" style="font-size:18px;">&#xe7a9;</span>DEMO</a></div> <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击查看效果</span> </div>
+          <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div> <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
            <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
                项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
@@ -33,8 +33,8 @@
        
    <div class="qunae">
            <div class="biaoti"><h5>仿百度外卖CSS3动画 </h5> <div class="lianjie"><a href="https://msppyu1.github.io/baiduwaimai/waimai.html">
-           <span class="iconfont" style="font-size:18px;">&#xe7a9;</span>DEMO</a></div>
-            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击查看效果</span> </div>
+           <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div>
+            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
            <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
                项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
@@ -50,8 +50,8 @@
 
        <div class="qunae">
            <div class="biaoti"><h5>微信小程序</h5> <div class="lianjie"><a href="https://msppyu1.github.io/travel1/dist/index.html#/">
-           <span class="iconfont" style="font-size:18px;">&#xe7a9;</span>DEMO</a></div>
-            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击查看效果</span> </div>
+          <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div>
+            <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
            <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
                项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 .dianji{
-    margin-left: 60px;
+    margin-left: 30px;
    opacity: 1;
    margin-top: 7px;
 }
@@ -95,7 +95,7 @@ export default {
     animation:  jian 2s  infinite;
     position: relative;
     top: -7px;
-    left: 20px;
+    left: 5px;
 opacity: 0;
 }
 .qunae{
@@ -112,12 +112,12 @@ opacity: 0;
     font-size: 16px;
 }
 .lianjie{
-    margin-left: 20px;
-    width: 70px;
+    margin-left: 5px;
+    width: 60px;
     height: 25px;
     border-radius: 50px;
     border: 1px solid black;
-   font-size: 14PX;
+    font-size: 12PX;
     line-height: 25px;
     text-align: center;
 }
@@ -153,6 +153,17 @@ margin-right: 60px;
     .wenzi{
     width:100%;
 }
+.biaoti h5{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+}
+@media (max-width: 375px){
+.tupian{
+    margin-left: 40px;
+}
+
 }
 </style>
 
