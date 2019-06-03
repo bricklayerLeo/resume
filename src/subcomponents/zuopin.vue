@@ -39,6 +39,7 @@
                项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
                 开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
              电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</div>
+             
              <div class="picture">
             <div class="tupian"><img src="@/assets/qunaer1.png" alt=""></div>
              <div class="tupian"><img src="@/assets/qunaer2.png" alt=""></div>
