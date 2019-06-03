@@ -9,7 +9,7 @@
        <h4>web 前端工程师</h4>
        <p>我是一个小胖子，没事就摸摸头</p>
    </div>
-   <hr>
+   <hr class="ok">
    <div class="xiangxi">
        <ul>
            <li><span class="iconfont">&#xe6fb;</span> 男 27岁 </li>
@@ -51,10 +51,9 @@ export default {
 .bianbian{
     height: 660px;
     background: white;
-    margin-top: 10px;
+    
   
 }
-
 .touxiang{
     width: 100px;
     height: 100px;
@@ -63,7 +62,7 @@ export default {
    position: absolute;
    left: 50%;
    margin-left: -50px;
-    margin-top: 45px;
+    margin-top: 60px;
     background: url('../assets/yeye4.png')no-repeat left top/200%;
     opacity: 0;
 }
@@ -76,14 +75,16 @@ export default {
    margin-left: -100px;
     width: 200px;
     height: 100px;
-    
+    top: 180px;
     text-align: center;
     line-height: 25px;
-
 }
-
 .xiangxi{
-   padding-left: 66px;
+    width: 98%;
+    margin: 0 auto;
+   
+    padding-left: 60px;
+   
 }
 ul li{
     padding: 5px 0;
@@ -102,10 +103,7 @@ ul li{
         .okk{
          margin-top: 240px;
         }
-
 }
-
-
 hr{
     width: 90%;
     margin: 0 auto;
@@ -120,6 +118,7 @@ ul span{
     font-size: 25px;
 }
 .github{
+    top: 520px;
    width: 100px;
    position: absolute;
    left: 50%;
@@ -131,6 +130,7 @@ ul span{
 .github span{
 font-size: 45px;
 }
+.ok{
+    margin-top: 300px;
+}
 </style>
-
-
