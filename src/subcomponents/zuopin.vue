@@ -4,10 +4,15 @@
            <div class="biaoti"><h5>仿去哪儿网vue  </h5> <div class="lianjie"><a href="https://msppyu1.github.io/travel1/dist/index.html#/">
            <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div>
             <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
-           <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
-               项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
-                开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
-             电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</div>
+           <div class="wenzi">
+             <p>Vue-cli + axios + vue-router + keep-alive + localStorage + Better-scroll+ Swiper + iconfont</p>
+               <p> <strong>实现功能</strong>   icon轮播、localStorage缓存城市页面、城市页面搜索框等</p>
+             <p>
+                  ▲ 父子组件间数据的传递，Vuex实现数据共享，路由配置，搜索框布局和逻辑<br>
+                 ▲ 使用axios获取接口数据，使用keep-alive优化路由页面性能<br>
+                 ▲ Better-scroll、swiper的使用和字母表布局<br>
+             </p>
+           </div>
              <div class="picture">
             <div class="tupian"><img src="@/assets/qunaer1.png" alt=""></div>
              <div class="tupian"><img src="@/assets/qunaer2.png" alt=""></div>
@@ -19,10 +24,17 @@
      <div class="qunae">
            <div class="biaoti"><h5>仿百度外卖CSS3动画 </h5> <div class="lianjie"><a href="https://msppyu1.github.io/baiduwaimai/waimai.html">
           <span class="iconfont" style="font-size:12px;font-weight:bold;">&#xe6b7;</span>DEMO</a></div> <div class="jiantou"> <span class="iconfont" style="color:red;">&#xe632;</span> </div><span class="dianji">点击</span> </div>
-           <div class="wenzi">个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，
-               项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等个人<br>主攻 Web 前端和 NodeJS
-                开发，3年+前端开发经验，与或独立开发过多个核心项目，项目类型涉及：
-             电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等</div>
+           <div class="wenzi">
+
+            <p>rem + sass + zepo.js + touch.js + animate动画 + Swiper 等</p>
+            <p> <strong>实现功能</strong> 刷新页面动画播放、音乐播放功能等  </p>
+            <p>
+                ▲ 父子组件间数据的传递，Vuex实现数据共享，路由配置，搜索框布局和逻辑<br>
+                ▲ 使用axios获取接口数据，使用keep-alive优化路由页面性能<br>
+                ▲ Better-scroll、swiper的使用和字母表布局<br>
+             </p>
+
+           </div>
              <div class="picture">
             <div class="tupian"><img src="@/assets/waimai1.png" alt=""></div>
              <div class="tupian"><img src="@/assets/waimai2.png" alt=""></div>
